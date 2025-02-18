@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01 Scenes/Singleton.unity
+    path: Assets/01 Scenes/1/Singleton.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/01 Scenes/Singleton-1.unity
+    path: Assets/01 Scenes/1/Singleton-1.unity
     guid: 7a45e7842b056a84cb62671635487d8e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
