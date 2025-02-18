@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 namespace Manager
 {
-    public class GameManager : Singleton<GameManager>
+    public class SGameManager : Singleton<SGameManager>
     {
         public void ChangeScene(int sceneNum)
         {

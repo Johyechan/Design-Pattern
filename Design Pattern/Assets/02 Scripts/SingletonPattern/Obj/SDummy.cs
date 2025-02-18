@@ -1,18 +1,18 @@
 using Manager;
 using UnityEngine;
 
-public class Dummy : MonoBehaviour
+public class SDummy : MonoBehaviour
 {
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Q))
         {
-            GameManager.Instance.ChangeScene(1);
+            SGameManager.Instance.ChangeScene(1);
         }
 
         if(Input.GetKeyDown(KeyCode.W))
         {
-            GameManager.Instance.ChangeScene(0);
+            SGameManager.Instance.ChangeScene(0);
         }
     }
 }
